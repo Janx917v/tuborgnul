@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+/* Header */
+header {
+    padding: 20px;
+    background: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+body {
+    background-color: #093a82;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section {
+    text-align: center;
+    background-color: #fff;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+figcaption {
+    text-align: end;
+    padding-right: 5px;
+}
+
+footer {
+    text-align: center;
+    background-color: #fff;
+    padding-bottom: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+figcaption,
+footer {
+    font-family: 'Oswald', sans-serif;
+}
