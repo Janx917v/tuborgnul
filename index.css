@@ -14,7 +14,7 @@ header {
     text-align: center;
     margin-bottom: 20px;
     z-index: 1;
-        background-image: url('ballon_2.png');
+    background-image: url('ballon_2.png');
 }
 
 
@@ -47,8 +47,9 @@ figcaption {
 
 footer {
     text-align: center;
-    background-color: #fff;
+    background-color: #1F0F47;
     padding-bottom: 10px;
+    color: #BEE0DA;
 }
 
 h1,
@@ -62,6 +63,10 @@ footer {
 }
 
 h1 {
-    color: #1F0F47;
+    color: #BEE0DA;
     font-size: 4vw;
+}
+
+h2 {
+    font-size: 3vw;
 }
