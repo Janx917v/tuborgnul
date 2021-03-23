@@ -10,13 +10,21 @@ img {
 /* Header */
 header {
     padding: 20px;
-    background: #fff;
+    background: white;
     text-align: center;
     margin-bottom: 20px;
+    z-index: 1;
+        background-image: url('ballon_2.png');
+}
+
+
+
+header img {
+    width: 15%;
 }
 
 body {
-    background-color: #093a82;
+    background-color: #1F0F47;
 }
 
 main {
@@ -26,7 +34,7 @@ main {
 
 section {
     text-align: center;
-    background-color: #fff;
+    background-color: #BEE0DA;
     padding-top: 30px;
     padding-bottom: 10px;
     margin-bottom: 15px;
@@ -51,4 +59,9 @@ p,
 figcaption,
 footer {
     font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+    color: #1F0F47;
+    font-size: 4vw;
 }
