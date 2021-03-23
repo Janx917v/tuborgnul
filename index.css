@@ -32,12 +32,30 @@ main {
     margin: 0 auto;
 }
 
+main img {
+    width: 80%;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    filter: drop-shadow(15px 15px 10px #3C3C3C);
+}
+
+
+main a {
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 2vw;
+}
+
+
 section {
     text-align: center;
     background-color: #BEE0DA;
     padding-top: 30px;
     padding-bottom: 10px;
     margin-bottom: 15px;
+    margin-top: 4vw;
+    filter: drop-shadow(15px 15px 10px #000);
 }
 
 figcaption {
@@ -65,8 +83,10 @@ footer {
 h1 {
     color: #BEE0DA;
     font-size: 4vw;
+    font-weight: 500;
 }
 
 h2 {
     font-size: 3vw;
+    margin-bottom: 2vw;
 }
